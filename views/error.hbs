@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error :(</title>
+</head>
+<body>
+{{>header}}
+<div class="error-container">
+    <div class="error-header">
+        <h1>{{message}}</h1>
+        <h2>{{error.status}}</h2>
+    </div>
+    <div class="error-text">
+        <p>Oops! It seems like you got lost...</p>
+        <p>Sorry! We can’t find the content you’re looking for.</p>
+        <p>Try to search again or go back to <a href="/">Home Page</a></p>
+    </div>
+</div>
+
+{{>footer}}
+
+<script src="/javascripts/default.js"></script>
+
+</body>
+</html>
