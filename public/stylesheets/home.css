@@ -1,0 +1,10 @@
+.home-hero-section{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-quote-wrapper{
+    
+}
